@@ -249,17 +249,22 @@ section{
   margin-left: 20px;
 }
 /* mentor section  */
-.mentors{
-  display: flex;
-  justify-content: space-around;
-  width: 700px;
+.mentor-container{
   
 }
+.mentors{
+  display: flex;
+  height: 500px;
+  overflow-x: auto;
+  background: blue;
+}
 .mentor{
-
+  width: 400px;
+height: 300px;
+border: 1px solid red;
 }
 .mentor-image{
-  width: 100px;
+  width:300px;
 }
 
 /* annimation  */
